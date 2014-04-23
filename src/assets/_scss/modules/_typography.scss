@@ -49,7 +49,7 @@ h4, .h4 {
 }
 
 h1, .h1 {
-  font-size: 48.5px;
+  font-size: 32px;
   text-indent: -2px;
   letter-spacing: -1px;
   line-height: 1.2;
@@ -60,7 +60,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 31.5px;
+  font-size: 21px;
   line-height: 1.2;
 
   @include breakpoint(small) {
@@ -69,7 +69,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 26.5px;
+  font-size: 18px;
   line-height: 1.2;
 
   @include breakpoint(small) {
@@ -78,7 +78,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 22.5px;
+  font-size: 15px;
 
   @include breakpoint(small) {
     font-size: 17.5px;
@@ -86,9 +86,9 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 17.5px;
+  font-size: 12px;
 }
 
 h6, .h6 {
-  font-size: 14.5px;
+  font-size: 9.5px;
 }
